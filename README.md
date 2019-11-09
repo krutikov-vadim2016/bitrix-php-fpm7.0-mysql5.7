@@ -1,6 +1,6 @@
 # Контейнеры Docker для разворачивания окружения под сайт на 1С Битрикс 
 
-Контейнеры Docker для разворачивания окружения под сайт на 1С Битрикс ( Nginx + PHP-FPM 7.1 + Mysql 5.7 )
+Контейнеры Docker для разворачивания окружения под сайт на 1С Битрикс ( Nginx + PHP-FPM 7.0 + Mysql 5.7 )
 
 ## Требования
 
@@ -28,9 +28,9 @@ yum install -y mc nano wget git docker docker-compose && chkconfig docker on && 
 
 cd /ваша папка
 
-git clone https://github.com/krutikov-vadim2016/bitrix-php-fpm7.1-mysql5.7.git
+git clone https://github.com/krutikov-vadim2016/bitrix-php-fpm7.0-mysql5.7.git
 
-cd bitrix-php-fpm7.1-mysql5.7
+cd bitrix-php-fpm7.0-mysql5.7
 
 chown -R 33:33 www tmp
 
